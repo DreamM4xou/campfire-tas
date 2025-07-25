@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+    --color-background: oklch(1 0 0);
+    --color-foreground: oklch(.145 0 0);
+    --color-card: oklch(1 0 0);
+    --color-card-foreground: var(--color-blue-1000);
+    /* --color-card: var(--color-sky-1000); */
+    --color-popover: oklch(1 0 0);
+    --color-popover-foreground: oklch(.145 0 0);
+    --color-primary: var(--color-blue-300);
+    --color-primary-foreground: var(--color-blue-1000);
+    --color-text: var(--color-blue-1000);
+    --color-secondary: oklch(.97 0 0);
+    --color-secondary-foreground: oklch(.205 0 0);
+    --color-muted: oklch(.97 0 0);
+    --color-muted-foreground: oklch(.556 0 0);
+    --color-accent: oklch(.97 0 0);
+    --color-accent-foreground: oklch(.205 0 0);
+    --color-destructive: oklch(.577 .245 27.325);
+    --color-border: var(--color-blue-300);
+    --color-input: oklch(.922 0 0);
+    --color-ring: oklch(.708 0 0);
+    --color-chart-1: var(--color-blue-300);
+    --color-chart-2: var(--color-blue-500);
+    --color-chart-3: var(--color-blue-600);
+    --color-chart-4: var(--color-blue-700);
+    --color-chart-5: var(--color-blue-800);
+    --color-sidebar: oklch(.985 0 0);
+    --color-sidebar-foreground: oklch(.145 0 0);
+    --color-sidebar-primary: oklch(.205 0 0);
+    --color-sidebar-primary-foreground: oklch(.985 0 0);
+    --color-sidebar-accent: oklch(.97 0 0);
+    --color-sidebar-accent-foreground: oklch(.205 0 0);
+    --color-sidebar-border: oklch(.922 0 0);
+    --color-sidebar-ring: oklch(.708 0 0);
+    --color-surface: oklch(.98 0 0);
+    --color-surface-foreground: var(--foreground);
+    --color-code: var(--surface);
+    --color-code-foreground: var(--surface-foreground);
+    --color-code-highlight: oklch(.96 0 0);
+    --color-code-number: oklch(.56 0 0);
+    --color-selection: oklch(.145 0 0);
+    --color-selection-foreground: oklch(1 0 0);
+}
+
+.border {
+    border-color: var(--color-border);
+}
+
+button {
+    cursor: pointer
+}
